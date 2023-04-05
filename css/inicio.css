@@ -1,0 +1,35 @@
+.inicio{
+    display: flex;
+    padding-top: 12.25rem;
+    padding-bottom: 4.5rem;
+    background-image: linear-gradient(rgba(248, 221, 133, 0.7), rgba(228, 221, 221, 0.075)),url(../img/fondoo.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 80vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inicio__texto{
+    text-shadow: 1px 1px 0 #edff21, 1px -1px 0 #edff21, -1px 1px 0 #edff21, -1px -1px 0 #edff21;
+    color: #2c2c2c;
+    text-align: center;
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold
+}
+
+@media screen and (min-width: 0 ) {
+    .inicio__texto{
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .inicio__texto{
+        font-size: 5.5rem;
+    }
+}

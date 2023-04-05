@@ -1,0 +1,42 @@
+.sobre {
+    background: #FFDE59;
+    padding-top: 0.40rem;
+    padding-bottom: 0.50rem;
+    
+}
+.sobre__titulo{
+    text-shadow: 1px 1px 0 #edff21, 1px -1px 0 #edff21, -1px 1px 0 #edff21, -1px -1px 0 #edff21;
+    font-size: 3.0rem;
+    color: #2c2c2c;
+}
+
+.sobre__lista{
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.sobre__texto{
+    color: black;
+    font-size: 1.3rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.sobre__foto{
+    height:200px ;
+    width: 50vw;
+    max-width: 300px;
+    border-radius: 10%;
+    border: 1px solid #edff21;
+}
+
+@media screen and (min-width: 0){
+    .sobre__lista{
+        display: block;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .sobre__lista{
+        display: flex;
+    }
+}

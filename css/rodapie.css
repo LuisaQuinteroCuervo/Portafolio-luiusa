@@ -1,0 +1,15 @@
+.rodapie{
+    background: #ECF0F1;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.rodapie__titulo{
+    text-shadow: 1px 1px 0 #edff21, 1px -1px 0 #edff21, -1px 1px 0 #edff21, -1px -1px 0 #edff21;
+}
+
+.rodapie__img{
+    width: 35px;
+    border: 2px solid #edff21;
+    border-radius: 10px;
+}

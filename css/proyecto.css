@@ -1,0 +1,42 @@
+.proyecto{
+    background: #FFDE59;
+    padding-top: 0.40rem;
+    padding-bottom: 0.50rem;
+}
+
+.proyecto__titulo{
+    color: #2c2c2c;
+    font-size: 3.0rem;
+    text-shadow: 1px 1px 0 #edff21, 1px -1px 0 #edff21, -1px 1px 0 #edff21, -1px -1px 0 #edff21;
+}
+
+.proyecto__proyecto{
+    text-decoration: none;
+    text-align: center;
+    list-style: none;
+    
+}
+hr{
+    border-color: transparent;;
+    width: 45%;
+}
+
+.proyecto__img{
+    width: 100vw;
+    max-width: 300px;
+    border: none;
+    transition: transform .2s;
+    border: 3px solid #95C2F9;;
+    border-radius: 10%;
+}
+.proyecto__img:hover{
+    transform: scale(1.5);
+}
+
+.proyecto__uno{
+    color: black;
+    font-size: 1.3rem;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
